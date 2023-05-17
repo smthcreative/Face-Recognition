@@ -1,2 +1,2 @@
 # Face-Recognition
-Part of the code and Dataset from the photo is on the master branch
+Part of the code and AT&T Database of Faces is on the master branch
