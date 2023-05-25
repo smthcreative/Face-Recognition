@@ -168,11 +168,11 @@ while s < 0.9:
 # print(pca.components_[0].shape)
 
 # Take the first K principal components as eigenfaces
-n_components = number
-eigenfaces = pca.components_[:n_components]
+n_components = 50
+# eigenfaces = pca.components_[:n_components]
 train_eigenfaces = train_pca.components_[:n_components]
 
-# eigenfaces = PcA(facematrix, n_components)
+eigenfaces = PcA(facematrix, n_components)
 # print(eigenfaces)
 # print(eigenfaces[0])
 # print(train_eigenfaces)
